@@ -11,6 +11,7 @@
         <module>andysite-dependencies</module>
         <module>andysite-database</module>
         <module>andysite-parent</module>
+        <module>andysite-modules</module>
     </modules>
 
     <packaging>pom</packaging>
