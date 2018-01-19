@@ -13,7 +13,7 @@
 
     <!-- 扫描 mapper -->
     <bean class="tk.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.lang.andysite.modules.**.mapper" />
+        <property name="basePackage" value="com.lang.andysite.modules.**.dao" />
     </bean>
 
     <!-- 定义事务 -->

@@ -292,4 +292,33 @@
         </resources>
     </build>
 
+    <profiles>
+        <!-- 测试环境 -->
+        <profile>
+            <id>testing</id>
+            <properties>
+                <profiles.active>testing</profiles.active>
+            </properties>
+        </profile>
+
+        <!-- 生产环境 -->
+        <profile>
+            <id>production</id>
+            <properties>
+                <profiles.active>production</profiles.active>
+            </properties>
+        </profile>
+
+        <!-- 开发环境 -->
+        <profile>
+            <id>development</id>
+            <properties>
+                <profiles.active>development</profiles.active>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+    </profiles>
+
 </project>
